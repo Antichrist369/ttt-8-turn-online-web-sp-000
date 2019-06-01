@@ -20,6 +20,7 @@ def turn(board)
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   if board >= ["X", "O"]
     puts "Plaese enter 1-9:"
+  
   end
 end 
 
