@@ -16,13 +16,7 @@ def move(board, index, current_player = "X")
 end
 
 
-  rn_spec.rb:78 # ./lib/turn.rb #turn asks the user for input by printing: "Please enter 1-9:"
-rspec ./spec/turn_spec.rb:88 # ./lib/turn.rb #turn gets the user input
-rspec ./spec/turn_spec.rb:97 # ./lib/turn.rb #turn calls the input_to_index method
-rspec ./spec/turn_spec.rb:108 # ./lib/turn.rb #turn validates the input correctly
-rspec ./spec/turn_spec.rb:118 # ./lib/turn.rb #turn asks for input again after a failed validation
-rspec ./spec/turn_spec.rb:129 # ./lib/turn.rb #turn makes valid moves
-rspec ./spec/turn_spec.rb:141 # ./lib/turn.rb #turn displays a correct board after a valid turn
+  id turn
 
 [04:04:47] (master) ttt-8-turn-online-web-sp-000
 // ♥
