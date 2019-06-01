@@ -16,55 +16,7 @@ def move(board, index, current_player = "X")
 end
 
 
-   plays a correct board after a valid turn (FAILED - 7)
-
-Failures:
-
-  1) ./lib/turn.rb #turn asks the user for input by printing: "Please enter 1-9:"
-     Failure/Error: if board >= ["X", "O"]
-
-     NoMethodError:
-       undefined method `>=' for [" ", " ", " ", " ", " ", " ", " ", " ", " "]:Array
-     # ./lib/turn.rb:21:in `turn'
-     # ./spec/turn_spec.rb:85:in `block (3 levels) in <top (required)>'
-
-  2) ./lib/turn.rb #turn gets the user input
-     Failure/Error: if board >= ["X", "O"]
-
-     NoMethodError:
-       undefined method `>=' for [" ", " ", " ", " ", " ", " ", " ", " ", " "]:Array
-     # ./lib/turn.rb:21:in `turn'
-     # ./spec/turn_spec.rb:94:in `block (3 levels) in <top (required)>'
-
-  3) ./lib/turn.rb #turn calls the input_to_index method
-     Failure/Error: if board >= ["X", "O"]
-
-     NoMethodError:
-       undefined method `>=' for [" ", " ", " ", " ", " ", " ", " ", " ", " "]:Array
-     # ./lib/turn.rb:21:in `turn'
-     # ./spec/turn_spec.rb:105:in `block (3 levels) in <top (required)>'
-
-  4) ./lib/turn.rb #turn validates the input correctly
-     Failure/Error: if board >= ["X", "O"]
-
-     NoMethodError:
-       undefined method `>=' for [" ", " ", " ", " ", " ", " ", " ", " ", " "]:Array
-     # ./lib/turn.rb:21:in `turn'
-     # ./spec/turn_spec.rb:115:in `block (3 levels) in <top (required)>'
-
-  5) ./lib/turn.rb #turn asks for input again after a failed validation
-     Failure/Error: if board >= ["X", "O"]
-
-     NoMethodError:
-       undefined method `>=' for [" ", " ", " ", " ", " ", " ", " ", " ", " "]:Array
-     # ./lib/turn.rb:21:in `turn'
-     # ./spec/turn_spec.rb:126:in `block (3 levels) in <top (required)>'
-
-  6) ./lib/turn.rb #turn makes valid moves
-     Failure/Error: if board >= ["X", "O"]
-
-     NoMethodError:
-       undefined method `>=' for [" ", " ", " ", " ", " ", " ", " ", " ", " "]:Array
+    `>=' for [" ", " ", " ", " ", " ", " ", " ", " ", " "]:Array
      # ./lib/turn.rb:21:in `turn'
      # ./spec/turn_spec.rb:136:in `block (3 levels) in <top (required)>'
 
