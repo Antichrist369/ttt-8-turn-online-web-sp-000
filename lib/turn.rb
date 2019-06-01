@@ -16,16 +16,7 @@ def move(board, index, current_player = "X")
 end
 
 
-  ec.rb:146:in `block (4 levels) in <top (required)>'
-     # ./spec/spec_helper.rb:24:in `capture_puts'
-     # ./spec/turn_spec.rb:146:in `block (3 levels) in <top (required)>'
-
-Finished in 0.0208 seconds (files took 0.15492 seconds to load)
-13 examples, 7 failures
-
-Failed examples:
-
-rspec ./spec/turn_spec.rb:78 # ./lib/turn.rb #turn asks the user for input by printing: "Please enter 1-9:"
+  rn_spec.rb:78 # ./lib/turn.rb #turn asks the user for input by printing: "Please enter 1-9:"
 rspec ./spec/turn_spec.rb:88 # ./lib/turn.rb #turn gets the user input
 rspec ./spec/turn_spec.rb:97 # ./lib/turn.rb #turn calls the input_to_index method
 rspec ./spec/turn_spec.rb:108 # ./lib/turn.rb #turn validates the input correctly
