@@ -15,12 +15,9 @@ def move(board, index, current_player = "X")
   board[index] = current_player
 end
 
-
-  id turn
-
-[04:04:47] (master) ttt-8-turn-online-web-sp-000
-// ♥
-
+def #turn
+ puts " Plaese enter 1-9:"
+ end
 # valid_move?  
 def valid_move?(board, index) 
    true if !position_taken?(board, index) && index.between?(0, 8)
