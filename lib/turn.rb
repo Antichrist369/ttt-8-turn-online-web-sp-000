@@ -16,7 +16,7 @@ def move(board, index, current_player = "X")
 end
 
 def #turn
- puts " Plaese enter 1-9:"
+ puts "Plaese enter 1-9:"
 end
 
 # valid_move?  
