@@ -17,11 +17,7 @@ end
 
 #turn
 def turn(board)
-  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-  if board >= ["X", "O"]
     puts "Plaese enter 1-9:"
-  elseif 
-  end
 end 
 
 # valid_move?  
