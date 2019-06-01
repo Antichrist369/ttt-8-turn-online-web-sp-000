@@ -15,16 +15,7 @@ def move(board, index, current_player = "X")
   board[index] = current_player
 end
 
-./lib/turn.rb
-  #display_board
-    prints arbitrary arrangements of the board
-  #input_to_index
-    converts a user_input to an integer
-    subtracts 1 from the user_input
-    returns -1 for strings without integers
-  #valid_move?
-    returns true/false based on index
-  #move
+
     allows "X" player in the bottom right and "O" in the top left
   #turn
     asks the user for input by printing: "Please enter 1-9:" (FAILED - 1)
