@@ -16,17 +16,7 @@ def move(board, index, current_player = "X")
 end
 
 
-    `>=' for [" ", " ", " ", " ", " ", " ", " ", " ", " "]:Array
-     # ./lib/turn.rb:21:in `turn'
-     # ./spec/turn_spec.rb:136:in `block (3 levels) in <top (required)>'
-
-  7) ./lib/turn.rb #turn displays a correct board after a valid turn
-     Failure/Error: if board >= ["X", "O"]
-
-     NoMethodError:
-       undefined method `>=' for [" ", " ", " ", " ", " ", " ", " ", " ", " "]:Array
-     # ./lib/turn.rb:21:in `turn'
-     # ./spec/turn_spec.rb:146:in `block (4 levels) in <top (required)>'
+  ec.rb:146:in `block (4 levels) in <top (required)>'
      # ./spec/spec_helper.rb:24:in `capture_puts'
      # ./spec/turn_spec.rb:146:in `block (3 levels) in <top (required)>'
 
